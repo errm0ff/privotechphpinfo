@@ -18,9 +18,12 @@ include 'header.php';
         <div class="about-content">
             <div class="about-text">
                 <h2>Our Story</h2>
-                <p>Founded in 2015, Privotech began as a small team of passionate developers with a vision to transform businesses through technology. Today, we've grown into a full-service technology consultancy with a diverse portfolio of successful projects across various industries.</p>
-                <p>Our journey started when our founders recognized a gap in the market for affordable, high-quality technology solutions tailored to small and medium-sized businesses. What began as a modest startup has evolved into a trusted partner for companies seeking digital transformation.</p>
-                
+                <p>In 2022, the world pressed pause. But while many stood still, we hit play on a new kind of tech company. Privotech was founded on a simple, powerful idea: that every business, from the passionate startup to the established enterprise, deserves technology that works for them, not the other way around.
+
+                    We saw that the digital world was full of complex jargon, unpredictable costs, and missed deadlines. So, we decided to rewrite the rules. We stripped away the complexity and brought back the fundamentals: clarity, reliability, and partnership.
+
+                    We don't just build websites and software; we build confidence. We build the tools that let you sleep soundly, knowing your digital storefront is secure, your CRM is empowering your sales team, and your online presence is actively working to grow your business.<p>Our journey started when our founders recognized a gap in the market for affordable, high-quality technology solutions tailored to small and medium-sized businesses. What began as a modest startup has evolved into a trusted partner for companies seeking digital transformation.</p>
+
                 <h2 style="margin-top: 30px;">Our Mission</h2>
                 <p>To empower businesses with innovative technology solutions that drive growth, efficiency, and competitive advantage in an increasingly digital world.</p>
                 
@@ -33,6 +36,10 @@ include 'header.php';
                     <li style="margin-bottom: 10px; padding-left: 20px; position: relative;">
                         <span style="position: absolute; left: 0; color: var(--secondary);">✓</span>
                         <strong>Quality:</strong> We deliver solutions that exceed expectations
+                    </li>
+                    <li style="margin-bottom: 10px; padding-left: 20px; position: relative;">
+                        <span style="position: absolute; left: 0; color: var(--secondary);">✓</span>
+                        <strong>Speed, not delays: </strong>We're built for fast delivery because we know your business can't wait
                     </li>
                     <li style="margin-bottom: 10px; padding-left: 20px; position: relative;">
                         <span style="position: absolute; left: 0; color: var(--secondary);">✓</span>
@@ -64,25 +71,25 @@ include 'header.php';
         <div class="stats-cards-alternative">
             <div class="stat-card-alt">
                 <div class="stat-icon">🚀</div>
-                <div class="stat-number" data-count="8">0</div>
+                <div class="stat-number" data-count="8">4</div>
                 <div class="stat-label">Years of Excellence</div>
                 <div class="stat-description">Pioneering technology solutions since 2015</div>
             </div>
             <div class="stat-card-alt">
                 <div class="stat-icon">💼</div>
-                <div class="stat-number" data-count="250">0</div>
+                <div class="stat-number" data-count="250">36</div>
                 <div class="stat-label">Successful Projects</div>
-                <div class="stat-description">Delivered across 15+ countries worldwide</div>
+                <div class="stat-description">Delivered across 14+ UK cities</div>
             </div>
             <div class="stat-card-alt">
                 <div class="stat-icon">⭐</div>
-                <div class="stat-number" data-count="98">0</div>
+                <div class="stat-number" data-count="98">4.9</div>
                 <div class="stat-label">Satisfaction Rate</div>
                 <div class="stat-description">Consistently exceeding client expectations</div>
             </div>
             <div class="stat-card-alt">
                 <div class="stat-icon">👥</div>
-                <div class="stat-number" data-count="50">0</div>
+                <div class="stat-number" data-count="50">15</div>
                 <div class="stat-label">Expert Team</div>
                 <div class="stat-description">Dedicated professionals driving innovation</div>
             </div>

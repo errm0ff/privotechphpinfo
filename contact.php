@@ -80,7 +80,7 @@ include 'header.php';
                         <div class="contact-icon">📍</div>
                         <div class="contact-detail-content">
                             <h4>Our Office</h4>
-                            <p>123 Tech Street<br>Innovation City, IC 10001</p>
+                            <p>347 Barking Road<br>  E13 8EE, London, England</p>
                         </div>
                     </div>
                     
@@ -88,7 +88,7 @@ include 'header.php';
                         <div class="contact-icon">📞</div>
                         <div class="contact-detail-content">
                             <h4>Phone Number</h4>
-                            <p>+1 (555) 123-4567<br>Mon-Fri from 9am to 6pm</p>
+                            <p>+44 <br>Mon-Fri from 9am to 6pm</p>
                         </div>
                     </div>
                     

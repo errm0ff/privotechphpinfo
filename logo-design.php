@@ -192,7 +192,6 @@ include 'header.php';
         </div>
         <div class="cta-buttons-logo">
             <a href="contact.php?package=logo-design" class="btn btn-accent">Start Your Logo Design</a>
-            <a href="portfolio.php" class="btn btn-outline">View Full Portfolio</a>
         </div>
     </div>
 </section>

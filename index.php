@@ -7,8 +7,8 @@ include 'header.php';
 <!-- Hero Section -->
 <section class="hero">
     <div class="container">
-        <h1>Fast, Fixed-Price Web Development for UK Businesses</h1>
-        <p>Privotech delivers cutting-edge software development and IT consulting services to help your business thrive in the digital age.</p>
+        <h1>Fast, Fixed-Price Software and Web Development for UK Businesses</h1>
+        <p>Privotech delivers cutting-edge software/web development and IT consulting services to help your business thrive in the digital age.</p>
         <a href="contact.php" class="btn btn-accent">Get In Touch</a>
     </div>
 </section>
@@ -32,36 +32,23 @@ include 'header.php';
                 <h3>Web Development</h3>
                 <p>Responsive, modern websites and web applications that deliver exceptional user experiences.</p>
             </div>
-            <div class="service-card">
-                <div class="service-icon">📱</div>
-                <h3>Mobile App Development</h3>
-                <p>Native and cross-platform mobile applications for iOS and Android devices.</p>
-            </div>
+            
             <div class="service-card">
                 <div class="service-icon">☁️</div>
-                <h3>Cloud Solutions</h3>
-                <p>Scalable cloud infrastructure and migration services to optimize your operations.</p>
+                <h3>SEO optimization</h3>
+                <p>Optimization for your current web services.</p>
             </div>
-            <div class="service-card">
-                <div class="service-icon">🔒</div>
-                <h3>Cybersecurity</h3>
-                <p>Comprehensive security assessments and solutions to protect your digital assets.</p>
-            </div>
-            <div class="service-card">
+               <div class="service-card">
                 <div class="service-icon">📊</div>
-                <h3>Data Analytics</h3>
-                <p>Transform your data into actionable insights with our advanced analytics solutions.</p>
+                <h3>Content Management Systems</h3>
+                <p>Keep your business data and menage it with our custom CMS systems.</p>
             </div>
             <div class="service-card">
                 <div class="service-icon">🛒</div>
                 <h3>E-commerce Solutions</h3>
                 <p>Complete online store development with payment integration and inventory management.</p>
             </div>
-            <div class="service-card">
-                <div class="service-icon">🔍</div>
-                <h3>SEO Services</h3>
-                <p>Search engine optimization to improve your website's visibility and drive organic traffic.</p>
-            </div>
+
             <div class="service-card">
                 <div class="service-icon">🎨</div>
                 <h3>UI/UX Design</h3>
@@ -116,9 +103,10 @@ include 'header.php';
         <div class="about-content">
             <div class="about-text">
                 <h2>About Privotech</h2>
-                <p>Founded in 2015, Privotech has been at the forefront of delivering innovative technology solutions to businesses of all sizes. Our team of experienced developers, designers, and consultants work collaboratively to transform ideas into powerful digital solutions.</p>
-                <p>We believe in building long-term partnerships with our clients, understanding their unique challenges, and delivering solutions that drive real business value.</p>
-                <a href="about.php" class="btn">Learn More About Us</a>
+                <p>In 2022, the world pressed pause. But while many stood still, we hit play on a new kind of tech company. Privotech was founded on a simple, powerful idea: that every business, from the passionate startup to the established enterprise, deserves technology that works for them, not the other way around.
+
+                    We saw that the digital world was full of complex jargon, unpredictable costs, and missed deadlines. So, we decided to rewrite the rules. We stripped away the complexity and brought back the fundamentals: clarity, reliability...</p>
+           <a href="about.php" class="btn">Learn More About Us</a>
             </div>
             <div class="about-image">
                 Company Team Image
