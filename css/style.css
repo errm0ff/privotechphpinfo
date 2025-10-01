@@ -1,3 +1,4 @@
+
 /* Main CSS Import File */
 @import url('variables.css');
 @import url('layout.css');
@@ -5,3 +6,81 @@
 @import url('navigation.css');
 @import url('pages.css');
 @import url('responsive.css');
+/* Mobile-First Responsive Design */
+@media (max-width: 768px) {
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+    .footer-column {
+        text-align: center;
+    }
+    
+    /* Ensure tap targets are SEO-friendly */
+    a, button {
+        min-height: 44px;
+        min-width: 44px;
+    }
+}
+
+/* Print Styles for Better SEO */
+@media print {
+    .social-links, 
+    .extras-navigation {
+        display: none !important;
+    }
+    
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+    
+    .footer {
+        border-top: 2px solid #000;
+    }
+}
+
+/* Schema.org Rich Result Styling */
+[itemtype="https://schema.org/LocalBusiness"] {
+    border-left: 3px solid #007bff;
+    padding-left: 15px;
+}
+
+/* Improve CLS (Cumulative Layout Shift) */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.footer-column {
+    will-change: transform;
+}
+
+/* ===== ACCESSIBILITY FOR SEO ===== */
+
+/* Focus styles for better UX signals */
+a:focus, button:focus {
+    outline: 2px solid #007bff;
+    outline-offset: 2px;
+}
+
+/* High contrast support */
+@media (prefers-contrast: high) {
+    .footer {
+        background: #000;
+        color: #fff;
+    }
+    
+    a {
+        color: #fff;
+    }
+}
+
+/* Reduced motion for better performance */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}

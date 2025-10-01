@@ -1,0 +1,33 @@
+/* Print-specific styles for better SEO */
+@media print {
+    * {
+        background: transparent !important;
+        color: black !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+    
+    .social-links,
+    .no-print {
+        display: none !important;
+    }
+    
+    .footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+    
+    a:after {
+        content: " (" attr(href) ")";
+        font-size: 0.9em;
+        font-weight: normal;
+    }
+    
+    /* UK business info emphasis */
+    .contact-info {
+        border: 1px solid #000;
+        padding: 10px;
+        margin: 10px 0;
+    }
+}

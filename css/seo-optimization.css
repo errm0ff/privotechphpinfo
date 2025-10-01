@@ -1,0 +1,108 @@
+/* ===== ADVANCED SEO OPTIMIZATIONS ===== */
+
+/* Structured Data Visibility */
+.schema-business-card {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.schema-business-card h4 {
+    margin: 0 0 10px 0;
+    font-size: 1.2em;
+}
+
+/* Trust Badges for Conversion SEO */
+.trust-badges {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 15px 0;
+}
+
+.trust-badge {
+    background: #28a745;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+/* UK Specific Styling */
+.uk-flag {
+    background: linear-gradient(135deg, #012169 0%, #C8102E 50%, #FFFFFF 100%);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+    margin: 5px 0;
+}
+
+/* Performance Optimizations */
+.lazy-load {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.lazy-load.loaded {
+    opacity: 1;
+}
+
+/* Core Web Vitals Improvements */
+.content-visibility-auto {
+    content-visibility: auto;
+    contain-intrinsic-size: 0 500px;
+}
+
+/* ===== FOOTER SEO ENHANCEMENTS ===== */
+
+.footer-column h3 {
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.footer-column h3::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #007bff;
+}
+
+/* Service links emphasis */
+.footer-column ul li a {
+    transition: all 0.3s ease;
+    position: relative;
+    padding-left: 15px;
+}
+
+.footer-column ul li a::before {
+    content: '▸';
+    position: absolute;
+    left: 0;
+    color: #007bff;
+}
+
+.footer-column ul li a:hover {
+    padding-left: 20px;
+    color: #007bff;
+}
+
+/* ===== MOBILE CORE WEB VITALS ===== */
+@media (max-width: 480px) {
+    .footer-content {
+        font-size: 14px;
+    }
+    
+    /* Prevent layout shifts */
+    .footer-column {
+        min-height: 150px;
+    }
+}

@@ -9,6 +9,8 @@ $current_page = basename($_SERVER['PHP_SELF']);
     <title><?php echo $page_title ?? 'Fast, Fixed-Price Web Development UK | Privotech'; ?></title>
     <meta name="description" content="<?php echo $page_description ?? 'Affordable fixed-price web development, e-commerce & CRM solutions for UK businesses. Fast delivery, guaranteed pricing.'; ?>">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/seo-optimizations.css">
+    <link rel="stylesheet" href="css/print.css" media="print">
     <meta name="keywords" content="web development uk, e-commerce development, crm development, fixed price web design, fast delivery development">
     <meta name="geo.region" content="GB">
     <meta name="geo.placename" content="United Kingdom">
