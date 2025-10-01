@@ -1,13 +1,13 @@
 <?php
-$page_title = "Web Design Services - Privotech";
-$page_description = "Professional web design services including ecommerce development, responsive design, and custom website packages for businesses of all sizes.";
+$page_title = "Fixed Price Web Design UK | Fast Business Websites";
+$page_description = "Professional web design services for UK businesses. Fixed prices, quick turnaround. Perfect for small large and medium businesses.";
 include 'header.php';
 ?>
 
 <!-- Page Hero -->
 <section class="hero" style="padding: 150px 0 80px;">
     <div class="container">
-        <h1>Professional Web Design Services</h1>
+        <h1>Fast, Fixed-Price Web Design for UK Companies</h1>
         <p>Transform your online presence with our custom web design solutions tailored to your business needs.</p>
         <a href="#packages" class="btn btn-accent" style="margin-top: 20px;">View Our Packages</a>
     </div>

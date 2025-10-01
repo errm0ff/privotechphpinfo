@@ -6,9 +6,12 @@ $current_page = basename($_SERVER['PHP_SELF']);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php echo $page_title ?? 'Privotech - Technology Solutions'; ?></title>
-    <meta name="description" content="<?php echo $page_description ?? 'Privotech delivers innovative technology solutions including web design, development, SEO, and CMS services for businesses of all sizes.'; ?>">
+    <title><?php echo $page_title ?? 'Fast, Fixed-Price Web Development UK | Privotech'; ?></title>
+    <meta name="description" content="<?php echo $page_description ?? 'Affordable fixed-price web development, e-commerce & CRM solutions for UK businesses. Fast delivery, guaranteed pricing.'; ?>">
     <link rel="stylesheet" href="css/style.css">
+    <meta name="keywords" content="web development uk, e-commerce development, crm development, fixed price web design, fast delivery development">
+    <meta name="geo.region" content="GB">
+    <meta name="geo.placename" content="United Kingdom">
 </head>
 <body>
     <!-- Header -->

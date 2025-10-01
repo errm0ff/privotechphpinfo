@@ -1,13 +1,13 @@
 <?php
-$page_title = "Privotech - Innovative Technology Solutions";
-$page_description = "Privotech delivers cutting-edge software development, web design, and IT consulting services to help your business thrive in the digital age.";
+$page_title = "Fixed Price Web Development UK - Fast & Affordable | Privotech";
+$page_description = "UK's fastest fixed-price web development. E-commerce, CRM, and custom software. Perfect for small and large businesses across UK.";
 include 'header.php';
 ?>
 
 <!-- Hero Section -->
 <section class="hero">
     <div class="container">
-        <h1>Innovative Technology Solutions for Your Business</h1>
+        <h1>Fast, Fixed-Price Web Development for UK Businesses</h1>
         <p>Privotech delivers cutting-edge software development and IT consulting services to help your business thrive in the digital age.</p>
         <a href="contact.php" class="btn btn-accent">Get In Touch</a>
     </div>

@@ -1,13 +1,13 @@
 <?php
-$page_title = "Content Management System - Privotech";
-$page_description = "Professional CMS development services with custom content management systems tailored to your business needs. Easy-to-use and scalable solutions.";
+$page_title = "Custom CMS Development UK | Affordable Business CMS Systems";
+$page_description = "Tailored CMS development for UK companies. Fixed pricing, fast implementation. Streamline your business operations.";
 include 'header.php';
 ?>
 
 <!-- Page Hero -->
 <section class="hero" style="padding: 150px 0 80px;">
     <div class="container">
-        <h1>Content Management System</h1>
+        <h1>Custom CMS Solutions for UK Businesses</h1>
         <p>Powerful, flexible, and user-friendly CMS solutions tailored to your business needs.</p>
     </div>
 </section>

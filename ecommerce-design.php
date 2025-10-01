@@ -1,13 +1,13 @@
 <?php
-$page_title = "Ecommerce Web Design - Privotech";
-$page_description = "Professional ecommerce website design and development services with payment integration, inventory management, and mobile-responsive online stores.";
+$page_title = "Affordable E-commerce Development UK | Fixed Price Online Stores";
+$page_description = "Fixed-price e-commerce platform development for UK businesses. Fast delivery, full support. Get your online store running quickly.";
 include 'header.php';
 ?>
 
 <!-- Package Hero -->
 <section class="package-hero">
     <div class="container">
-        <h1>Ecommerce Web Design</h1>
+        <h1>Fixed Price E-commerce Development for UK Businesses</h1>
         <p>Professional online store development with advanced features to boost your sales and grow your business - complete ecommerce solutions from setup to launch.</p>
         <div class="package-price-hero">From $1,499</div>
         <a href="contact.php?package=ecommerce" class="btn btn-accent">Get Started Today</a>
