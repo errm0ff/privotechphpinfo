@@ -9,7 +9,8 @@ include 'header.php';
     <div class="container">
         <h1>Pro Web Design Package</h1>
         <p>Premium custom website design with advanced features for growing businesses and established companies seeking comprehensive online solutions.</p>
-        <div class="package-price-hero">$1,999</div>
+        <div class="package-price-hero">FROM £3690</div>
+         <p>+ Annual hosting and tehnical support charge</p>
         <a href="contact.php?package=pro" class="btn btn-accent">Get Started Today</a>
     </div>
 </section>
@@ -51,7 +52,7 @@ include 'header.php';
                 </div>
             </div>
             <div class="package-image">
-                Pro Package Website Preview
+                <img src="img/propcg.jpg" alt="Description of image">
             </div>
         </div>
     </div>
@@ -65,73 +66,75 @@ include 'header.php';
             <p>See how our Pro Package compares to other options to find your perfect fit</p>
         </div>
         <div class="comparison-table-container">
-            <table class="comparison-table">
+                   <table class="comparison-table">
                 <thead>
                     <tr>
                         <th>Features</th>
+                        <th class="highlight">Ready Made</th>
                         <th>Micro</th>
                         <th>Lite</th>
-                        <th class="highlight">Pro</th>
+                        <th>Pro</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td class="feature-name">Number of Pages</td>
-                        <td>3</td>
-                        <td>5</td>
-                        <td class="highlight check">10+</td>
+                        <td class="feature-name">Design Type</td>
+                        <td class="highlight">Template-Based</td>
+                        <td>Custom</td>
+                        <td>Custom</td>
+                        <td>Custom</td>
                     </tr>
                     <tr>
                         <td class="feature-name">Mobile Responsive</td>
-                        <td class="check">✓</td>
-                        <td class="check">✓</td>
                         <td class="highlight check">✓</td>
-                    </tr>
-                    <tr>
-                        <td class="feature-name">CMS Included</td>
-                        <td class="cross">✗</td>
                         <td class="check">✓</td>
-                        <td class="highlight check">✓</td>
-                    </tr>
-                    <tr>
-                        <td class="feature-name">SEO Setup</td>
-                        <td>Basic</td>
-                        <td>Advanced</td>
-                        <td class="highlight check">Premium</td>
-                    </tr>
-                    <tr>
-                        <td class="feature-name">E-commerce Ready</td>
-                        <td class="cross">✗</td>
-                        <td class="cross">✗</td>
-                        <td class="highlight check">✓</td>
-                    </tr>
-                    <tr>
-                        <td class="feature-name">Custom Design</td>
-                        <td class="limited">Limited</td>
                         <td class="check">✓</td>
-                        <td class="highlight check">Premium</td>
+                        <td class="check">✓</td>
                     </tr>
                     <tr>
-                        <td class="feature-name">Support Period</td>
-                        <td>1 Month</td>
-                        <td>3 Months</td>
-                        <td class="highlight check">6 Months</td>
+                        <td class="feature-name">Customization</td>
+                        <td class="highlight">Limited</td>
+                        <td class="limited">Basic</td>
+                        <td class="check">Advanced</td>
+                        <td class="check">Premium</td>
                     </tr>
                     <tr>
                         <td class="feature-name">Delivery Time</td>
-                        <td>5-7 Days</td>
-                        <td>7-10 Days</td>
-                        <td class="highlight">10-14 Days</td>
+                        <td class="highlight">1-3 Days</td>
+                        <td>2-3 Days</td>
+                        <td>3-5 Days</td>
+                        <td>5-7 Days or more</td>
                     </tr>
                     <tr>
-                        <td class="feature-name">Custom Features</td>
-                        <td class="cross">✗</td>
-                        <td class="limited">Limited</td>
-                        <td class="highlight check">✓</td>
+                        <td class="feature-name">Price Range</td>
+                        <td class="highlight">£650</td>
+                        <td>£1190</td>
+                        <td>£2790</td>
+                        <td>£3690</td>
+                    </tr>
+                    <tr>
+                        <td class="feature-name">SEO Setup</td>
+                        <td class="highlight">Basic</td>
+                        <td>Basic</td>
+                        <td>Advanced</td>
+                        <td class="check">Premium</td>
+                    </tr>
+                    <tr>
+                        <td class="feature-name">Support Period</td>
+                        <td class="highlight">1 Month</td>
+                        <td>3 Month</td>
+                        <td>6 Months</td>
+                        <td class="check">12 Months</td>
+                    </tr>
+                    <tr>
+                        <td class="feature-name">Best For</td>
+                        <td class="highlight">Quick Launch</td>
+                        <td>Startups</td>
+                        <td>Small Business</td>
+                        <td>Growing Business</td>
                     </tr>
                 </tbody>
-            </table>
-        </div>
+            </table>        </div>
     </div>
 </section>
 
@@ -210,7 +213,7 @@ include 'header.php';
         <h2>Ready to Elevate Your Online Presence?</h2>
         <p>Join successful businesses who transformed their digital strategy with our Pro Package</p>
         <div class="cta-buttons">
-            <a href="contact.php?package=pro" class="btn btn-light">Get Pro Package - $1,999</a>
+            <a href="contact.php?package=pro" class="btn btn-light">Get Pro Package - £3690</a>
             <a href="web-design.php" class="btn btn-outline-light">Compare All Packages</a>
         </div>
     </div>

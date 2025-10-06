@@ -9,7 +9,8 @@ include 'header.php';
     <div class="container">
         <h1>Lite Web Design Package</h1>
         <p>Professional website design at an affordable price - perfect for small businesses and startups looking to establish a strong online presence.</p>
-        <div class="package-price-hero">$999</div>
+         <div class="package-price-hero">FROM £2790</div>
+         <p>+ Annual hosting and tehnical support charge</p>
         <a href="contact.php?package=lite" class="btn btn-accent">Get Started Today</a>
     </div>
 </section>
@@ -49,7 +50,7 @@ include 'header.php';
                 </div>
             </div>
             <div class="package-image">
-                Lite Package Website Preview
+                <img src="img/litepcg.jpg" alt="Description of image">
             </div>
         </div>
     </div>
@@ -63,63 +64,72 @@ include 'header.php';
             <p>See how our Lite Package compares to other options to find your perfect fit</p>
         </div>
         <div class="comparison-table-container">
-            <table class="comparison-table">
+                   <table class="comparison-table">
                 <thead>
                     <tr>
                         <th>Features</th>
+                        <th class="highlight">Ready Made</th>
                         <th>Micro</th>
-                        <th class="highlight">Lite</th>
+                        <th>Lite</th>
                         <th>Pro</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td class="feature-name">Number of Pages</td>
-                        <td>3</td>
-                        <td class="highlight check">5</td>
-                        <td class="check">10+</td>
+                        <td class="feature-name">Design Type</td>
+                        <td class="highlight">Template-Based</td>
+                        <td>Custom</td>
+                        <td>Custom</td>
+                        <td>Custom</td>
                     </tr>
                     <tr>
                         <td class="feature-name">Mobile Responsive</td>
-                        <td class="check">✓</td>
                         <td class="highlight check">✓</td>
+                        <td class="check">✓</td>
+                        <td class="check">✓</td>
                         <td class="check">✓</td>
                     </tr>
                     <tr>
-                        <td class="feature-name">CMS Included</td>
-                        <td class="cross">✗</td>
-                        <td class="highlight check">✓</td>
-                        <td class="check">✓</td>
-                    </tr>
-                    <tr>
-                        <td class="feature-name">SEO Setup</td>
-                        <td>Basic</td>
-                        <td class="highlight check">Advanced</td>
+                        <td class="feature-name">Customization</td>
+                        <td class="highlight">Limited</td>
+                        <td class="limited">Basic</td>
                         <td class="check">Advanced</td>
-                    </tr>
-                    <tr>
-                        <td class="feature-name">E-commerce Ready</td>
-                        <td class="cross">✗</td>
-                        <td class="cross">✗</td>
-                        <td class="check">✓</td>
-                    </tr>
-                    <tr>
-                        <td class="feature-name">Custom Design</td>
-                        <td class="limited">Limited</td>
-                        <td class="highlight check">✓</td>
-                        <td class="check">✓</td>
-                    </tr>
-                    <tr>
-                        <td class="feature-name">Support Period</td>
-                        <td>1 Month</td>
-                        <td class="highlight check">3 Months</td>
-                        <td class="check">6 Months</td>
+                        <td class="check">Premium</td>
                     </tr>
                     <tr>
                         <td class="feature-name">Delivery Time</td>
-                        <td>5-7 Days</td>
-                        <td class="highlight">7-10 Days</td>
-                        <td>10-14 Days</td>
+                        <td class="highlight">1-3 Days</td>
+                        <td>2-3 Days</td>
+                        <td>3-5 Days</td>
+                        <td>5-7 Days or more</td>
+                    </tr>
+                    <tr>
+                        <td class="feature-name">Price Range</td>
+                        <td class="highlight">£650</td>
+                        <td>£1190</td>
+                        <td>£2790</td>
+                        <td>£3690</td>
+                    </tr>
+                    <tr>
+                        <td class="feature-name">SEO Setup</td>
+                        <td class="highlight">Basic</td>
+                        <td>Basic</td>
+                        <td>Advanced</td>
+                        <td class="check">Premium</td>
+                    </tr>
+                    <tr>
+                        <td class="feature-name">Support Period</td>
+                        <td class="highlight">1 Month</td>
+                        <td>3 Month</td>
+                        <td>6 Months</td>
+                        <td class="check">12 Months</td>
+                    </tr>
+                    <tr>
+                        <td class="feature-name">Best For</td>
+                        <td class="highlight">Quick Launch</td>
+                        <td>Startups</td>
+                        <td>Small Business</td>
+                        <td>Growing Business</td>
                     </tr>
                 </tbody>
             </table>
@@ -197,7 +207,7 @@ include 'header.php';
         <h2>Ready to Launch Your Professional Website?</h2>
         <p>Join hundreds of satisfied businesses who started with our Lite Package and grew their online presence</p>
         <div class="cta-buttons">
-            <a href="contact.php?package=lite" class="btn btn-light">Get Lite Package - $999</a>
+            <a href="contact.php?package=lite" class="btn btn-light">Get Lite Package - £2790</a>
             <a href="web-design.php" class="btn btn-outline-light">Compare All Packages</a>
         </div>
     </div>

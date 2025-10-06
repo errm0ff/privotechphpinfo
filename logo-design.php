@@ -28,7 +28,7 @@ include 'header.php';
                 </div>
             </div>
             <div class="about-image">
-                Logo Design Portfolio Showcase
+                <img src="img/logodesign.jpg" alt="Description of image">
             </div>
         </div>
     </div>
@@ -47,14 +47,14 @@ include 'header.php';
                     <h3>Basic Logo</h3>
                     <p>Essential logo design</p>
                 </div>
-                <div class="logo-price">$199</div>
+                <div class="logo-price">£35</div>
                 <ul class="logo-features-list">
                     <li>2 Initial Logo Concepts</li>
                     <li>2 Revision Rounds</li>
                     <li>Vector File (AI/EPS)</li>
                     <li>PNG & JPEG Files</li>
                     <li>Transparent Background</li>
-                    <li>3-5 Business Day Delivery</li>
+                    <li>Next Day Delivery</li>
                     <li>Basic File Formats</li>
                 </ul>
                 <a href="contact.php?package=logo-design&plan=basic" class="btn">Get Started</a>
@@ -66,7 +66,7 @@ include 'header.php';
                     <h3>Professional Logo</h3>
                     <p>Complete branding solution</p>
                 </div>
-                <div class="logo-price">$399</div>
+                <div class="logo-price">£79</div>
                 <ul class="logo-features-list">
                     <li>4 Initial Logo Concepts</li>
                     <li>Unlimited Revisions</li>
@@ -75,7 +75,7 @@ include 'header.php';
                     <li>Basic Brand Guidelines</li>
                     <li>Stationery Design (Business Card)</li>
                     <li>Source Files</li>
-                    <li>5-7 Business Day Delivery</li>
+                    <li>1-3 Business Day Delivery</li>
                     <li>Priority Support</li>
                 </ul>
                 <a href="contact.php?package=logo-design&plan=professional" class="btn btn-accent">Get Started</a>
@@ -86,7 +86,7 @@ include 'header.php';
                     <h3>Brand Identity</h3>
                     <p>Full brand package</p>
                 </div>
-                <div class="logo-price">$699</div>
+                <div class="logo-price">£149</div>
                 <ul class="logo-features-list">
                     <li>6 Initial Logo Concepts</li>
                     <li>Unlimited Revisions</li>
@@ -97,7 +97,7 @@ include 'header.php';
                     <li>Email Signature</li>
                     <li>All Source Files</li>
                     <li>Brand Style Guide</li>
-                    <li>7-10 Business Day Delivery</li>
+                    <li>2-5 Business Day Delivery</li>
                     <li>Dedicated Designer</li>
                 </ul>
                 <a href="contact.php?package=logo-design&plan=brand-identity" class="btn">Get Started</a>

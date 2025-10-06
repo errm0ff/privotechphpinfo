@@ -25,20 +25,20 @@ include 'header.php';
                 <div class="seo-metrics-grid" style="margin: 30px 0; grid-template-columns: repeat(2, 1fr);">
                     <div class="seo-metric-card">
                         <div class="seo-metric-icon">📈</div>
-                        <div class="seo-metric-number" data-count="85">0</div>
+                        <div class="seo-metric-number" data-count="85">50%+</div>
                         <div class="seo-metric-label">Traffic Increase</div>
                         <div class="seo-metric-description">Average organic growth</div>
                     </div>
                     <div class="seo-metric-card">
                         <div class="seo-metric-icon">💼</div>
-                        <div class="seo-metric-number" data-count="60">0</div>
+                        <div class="seo-metric-number" data-count="60">100+</div>
                         <div class="seo-metric-label">More Leads</div>
                         <div class="seo-metric-description">Qualified conversions</div>
                     </div>
                 </div>
             </div>
             <div class="about-image">
-                SEO Analytics Dashboard
+                  <img src="img/seo.jpg" alt="SEO optimization tools">
             </div>
         </div>
     </div>
@@ -99,7 +99,7 @@ include 'header.php';
                     <h3>Starter SEO</h3>
                     <p>For new websites</p>
                 </div>
-                <div class="seo-price">$299<span class="seo-price-period">/month</span></div>
+                <div class="seo-price">£299<span class="seo-price-period">/month</span></div>
                 <ul class="seo-features-list">
                     <li>Keyword Research (15 target keywords)</li>
                     <li>On-Page Optimization</li>
@@ -118,7 +118,7 @@ include 'header.php';
                     <h3>Professional SEO</h3>
                     <p>For growing businesses</p>
                 </div>
-                <div class="seo-price">$599<span class="seo-price-period">/month</span></div>
+                <div class="seo-price">£399<span class="seo-price-period">/month</span></div>
                 <ul class="seo-features-list">
                     <li>Keyword Research (30 target keywords)</li>
                     <li>Complete Technical SEO Audit</li>
@@ -138,7 +138,7 @@ include 'header.php';
                     <h3>Enterprise SEO</h3>
                     <p>For established businesses</p>
                 </div>
-                <div class="seo-price">$999<span class="seo-price-period">/month</span></div>
+                <div class="seo-price">£799<span class="seo-price-period">/month</span></div>
                 <ul class="seo-features-list">
                     <li>Comprehensive Keyword Research</li>
                     <li>Advanced Technical SEO</li>
@@ -167,25 +167,25 @@ include 'header.php';
         <div class="seo-metrics-grid">
             <div class="seo-metric-card">
                 <div class="seo-metric-icon">🚀</div>
-                <div class="seo-metric-number" data-count="85">0</div>
+                <div class="seo-metric-number" data-count="85">100-200+</div>
                 <div class="seo-metric-label">Traffic Boost</div>
                 <div class="seo-metric-description">Average organic traffic increase</div>
             </div>
             <div class="seo-metric-card">
                 <div class="seo-metric-icon">💼</div>
-                <div class="seo-metric-number" data-count="60">0</div>
+                <div class="seo-metric-number" data-count="60">50+</div>
                 <div class="seo-metric-label">More Leads</div>
                 <div class="seo-metric-description">Increase in qualified leads</div>
             </div>
             <div class="seo-metric-card">
                 <div class="seo-metric-icon">💰</div>
-                <div class="seo-metric-number" data-count="45">0</div>
+                <div class="seo-metric-number" data-count="45">70+</div>
                 <div class="seo-metric-label">Higher Conversion</div>
                 <div class="seo-metric-description">Improved conversion rates</div>
             </div>
             <div class="seo-metric-card">
                 <div class="seo-metric-icon">📈</div>
-                <div class="seo-metric-number" data-count="200">0</div>
+                <div class="seo-metric-number" data-count="200">15+</div>
                 <div class="seo-metric-label">Top Rankings</div>
                 <div class="seo-metric-description">Keywords on first page</div>
             </div>

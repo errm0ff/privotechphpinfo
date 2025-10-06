@@ -52,8 +52,9 @@ include 'header.php';
                 </ul>
             </div>
             <div class="about-image">
-                Company Team Image
+                <img src="img/team.jpg" alt="Privotech team">
             </div>
+            
         </div>
     </div>
 </section>
@@ -71,15 +72,15 @@ include 'header.php';
         <div class="stats-cards-alternative">
             <div class="stat-card-alt">
                 <div class="stat-icon">🚀</div>
-                <div class="stat-number" data-count="8">4</div>
+                <div class="stat-number" data-count="8">3</div>
                 <div class="stat-label">Years of Excellence</div>
-                <div class="stat-description">Pioneering technology solutions since 2015</div>
+                <div class="stat-description">Pioneering technology solutions since 2022</div>
             </div>
             <div class="stat-card-alt">
                 <div class="stat-icon">💼</div>
-                <div class="stat-number" data-count="250">36</div>
+                <div class="stat-number" data-count="250">26</div>
                 <div class="stat-label">Successful Projects</div>
-                <div class="stat-description">Delivered across 14+ UK cities</div>
+                <div class="stat-description">Delivered across 4+ UK cities</div>
             </div>
             <div class="stat-card-alt">
                 <div class="stat-icon">⭐</div>
@@ -89,7 +90,7 @@ include 'header.php';
             </div>
             <div class="stat-card-alt">
                 <div class="stat-icon">👥</div>
-                <div class="stat-number" data-count="50">15</div>
+                <div class="stat-number" data-count="50">10</div>
                 <div class="stat-label">Expert Team</div>
                 <div class="stat-description">Dedicated professionals driving innovation</div>
             </div>

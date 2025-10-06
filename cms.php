@@ -23,7 +23,7 @@ include 'header.php';
                 <a href="contact.php?package=cms" class="btn">Get Your CMS Solution</a>
             </div>
             <div class="about-image">
-                CMS Dashboard Preview
+                <img src="img/cms.jpg" alt="Description of image">
             </div>
         </div>
     </div>

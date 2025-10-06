@@ -30,27 +30,230 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     
     if (empty($errors)) {
         // Prepare email content
-        $to = 'info@privotech.com';
+        $to = 'orders@privotech.co.uk';
         $subject = 'New Contact Form Submission - Privotech';
+        
+        // HTML email content
         $email_content = "
-            Name: $name\n
-            Email: $email\n
-            Phone: $phone\n
-            Company: $company\n
-            Service: $service\n
-            Budget: $budget\n
-            Message:\n$message
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <style>
+                body { 
+                    font-family: 'Arial', sans-serif; 
+                    line-height: 1.6; 
+                    color: #333; 
+                    background-color: #f9f9f9;
+                    margin: 0;
+                    padding: 0;
+                }
+                .container { 
+                    max-width: 600px; 
+                    margin: 0 auto; 
+                    background: #ffffff; 
+                    border-radius: 10px;
+                    overflow: hidden;
+                    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+                }
+                .header { 
+                    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                    color: white; 
+                    padding: 30px; 
+                    text-align: center;
+                }
+                .header h1 { 
+                    margin: 0; 
+                    font-size: 24px;
+                    font-weight: 600;
+                }
+                .content { 
+                    padding: 30px; 
+                }
+                .field { 
+                    margin-bottom: 15px; 
+                    padding: 15px;
+                    background: #f8f9fa;
+                    border-radius: 8px;
+                    border-left: 4px solid #667eea;
+                }
+                .label { 
+                    font-weight: bold; 
+                    color: #495057;
+                    display: block;
+                    margin-bottom: 5px;
+                    font-size: 14px;
+                }
+                .value { 
+                    color: #212529;
+                    font-size: 16px;
+                }
+                .message-box {
+                    background: #e9ecef;
+                    padding: 20px;
+                    border-radius: 8px;
+                    margin-top: 10px;
+                    border: 1px solid #dee2e6;
+                }
+                .footer { 
+                    background: #f8f9fa; 
+                    padding: 20px; 
+                    text-align: center; 
+                    color: #6c757d;
+                    font-size: 14px;
+                    border-top: 1px solid #dee2e6;
+                }
+                .highlight {
+                    background: #fff3cd;
+                    padding: 10px;
+                    border-radius: 5px;
+                    border-left: 4px solid #ffc107;
+                    margin: 15px 0;
+                }
+            </style>
+        </head>
+        <body>
+            <div class='container'>
+                <div class='header'>
+                    <h1>🎯 New Contact Form Submission</h1>
+                    <p>New order request has been received!</p>
+                </div>
+                <div class='content'>
+                    <div class='highlight'>
+                        <strong>🚀 Provided client information:</strong>
+                    </div>
+                    
+                    <div class='field'>
+                        <span class='label'>👤 Full Name:</span>
+                        <span class='value'>$name</span>
+                    </div>
+                    
+                    <div class='field'>
+                        <span class='label'>📧 Email Address:</span>
+                        <span class='value'>$email</span>
+                    </div>
+                    
+                    <div class='field'>
+                        <span class='label'>📞 Phone Number:</span>
+                        <span class='value'>" . ($phone ?: 'Not provided') . "</span>
+                    </div>
+                    
+                    <div class='field'>
+                        <span class='label'>🏢 Company:</span>
+                        <span class='value'>" . ($company ?: 'Not provided') . "</span>
+                    </div>
+                    
+                    <div class='field'>
+                        <span class='label'>💼 Service Interested In:</span>
+                        <span class='value'>" . ($service ?: 'Not specified') . "</span>
+                    </div>
+                    
+                    <div class='field'>
+                        <span class='label'>💰 Project Budget:</span>
+                        <span class='value'>" . ($budget ?: 'Not specified') . "</span>
+                    </div>
+                    
+                    <div class='field'>
+                        <span class='label'>✉️ Message:</span>
+                        <div class='message-box'>
+                            " . nl2br($message) . "
+                        </div>
+                    </div>
+                    
+                    <div style='margin-top: 25px; padding: 15px; background: #d1ecf1; border-radius: 8px; border-left: 4px solid #0dcaf0;'>
+                        <strong>⏰ Action Required:</strong> Please respond within 24 hours
+                    </div>
+                </div>
+                <div class='footer'>
+                    <p>This email was sent from your website contact form<br>
+                    <strong>Privotech Ltd</strong> | 347 Barking Road, London E13 8EE</p>
+                </div>
+            </div>
+        </body>
+        </html>
         ";
-        $headers = "From: $email\r\nReply-To: $email";
         
-        // In a real application, you would send the email here
-        // For demo purposes, we'll just show a success message
-        $success_message = 'Thank you for your message! We will get back to you within 24 hours.';
+        // Email headers
+        $headers = "MIME-Version: 1.0" . "\r\n";
+        $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+        $headers .= "From: Privotech Website <noreply@privotech.co.uk>" . "\r\n";
+        $headers .= "Reply-To: $email" . "\r\n";
+        $headers .= "X-Mailer: PHP/" . phpversion();
         
-        // Clear form fields
-        $_POST = [];
+        // Send email
+        if (mail($to, $subject, $email_content, $headers)) {
+            // Success message
+            $success_message = '
+            <div class="success-animation">
+                <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+                    <circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none"/>
+                    <path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/>
+                </svg>
+                <h3>🎉 Message Sent Successfully!</h3>
+                <p>Thank you <strong>' . htmlspecialchars($name) . '</strong> for contacting us!</p>
+                <div class="success-details">
+                    <p>✅ We have received your message and will get back to you within <strong>24 hours</strong></p>
+                    <p>📧 A confirmation has been sent to: <strong>' . htmlspecialchars($email) . '</strong></p>
+                </div>
+                <div class="next-steps">
+                    <h4>What happens next?</h4>
+                    <ul>
+                        <li>Our team will review your requirements</li>
+                        <li>We\'ll contact you to discuss your project</li>
+                        <li>We\'ll provide a detailed proposal</li>
+                    </ul>
+                </div>
+            </div>
+            ';
+            
+            // Clear form fields
+            $_POST = [];
+            
+        } else {
+            // Error message
+            $error_message = '
+            <div class="error-animation">
+                <div class="error-icon">⚠️</div>
+                <h3>😔 Message Not Sent</h3>
+                <p>We encountered an issue while sending your message. Please try one of the following:</p>
+                <div class="error-solutions">
+                    <div class="solution-item">
+                        <strong>📧 Email us directly:</strong>
+                        <a href="mailto:orders@privotech.co.uk" class="solution-link">orders@privotech.co.uk</a>
+                    </div>
+                    <div class="solution-item">
+                        <strong>📞 Call us:</strong>
+                        <a href="tel:+447459086462" class="solution-link">+44 (0) 7459 086462</a>
+                    </div>
+                    <div class="solution-item">
+                        <strong>🔄 Try again:</strong>
+                        <p>Please check your internet connection and try submitting the form again</p>
+                    </div>
+                </div>
+                <div class="error-technical">
+                    <small>Technical details: Unable to send email. Please contact the website administrator.</small>
+                </div>
+            </div>
+            ';
+        }
     } else {
-        $error_message = 'Please fix the following errors: ' . implode(', ', $errors);
+        $error_message = '
+        <div class="validation-error">
+            <div class="error-header">
+                <span class="error-icon">❌</span>
+                <h4>Please fix the following errors:</h4>
+            </div>
+            <ul class="error-list">
+        ';
+        
+        foreach ($errors as $error) {
+            $error_message .= '<li>' . htmlspecialchars($error) . '</li>';
+        }
+        
+        $error_message .= '
+            </ul>
+            <p class="error-help">Please correct the highlighted fields and try again.</p>
+        </div>
+        ';
     }
 }
 
@@ -80,15 +283,7 @@ include 'header.php';
                         <div class="contact-icon">📍</div>
                         <div class="contact-detail-content">
                             <h4>Our Office</h4>
-                            <p>347 Barking Road<br>  E13 8EE, London, England</p>
-                        </div>
-                    </div>
-                    
-                    <div class="contact-detail-item">
-                        <div class="contact-icon">📞</div>
-                        <div class="contact-detail-content">
-                            <h4>Phone Number</h4>
-                            <p>+44 <br>Mon-Fri from 9am to 6pm</p>
+                            <p>347 Barking Road<br>E13 8EE, London, England</p>
                         </div>
                     </div>
                     
@@ -96,7 +291,15 @@ include 'header.php';
                         <div class="contact-icon">✉️</div>
                         <div class="contact-detail-content">
                             <h4>Email Address</h4>
-                            <p>info@privotech.com<br>We reply within 24 hours</p>
+                            <p>orders@privotech.co.uk<br>We reply within 24 hours</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-detail-item">
+                        <div class="contact-icon">📞</div>
+                        <div class="contact-detail-content">
+                            <h4>Phone Number</h4>
+                            <p>+44 (0) 7459 086462<br>WhatsApp available<br>Mon-Fri from 9am to 6pm</p>
                         </div>
                     </div>
                 </div>
@@ -134,24 +337,23 @@ include 'header.php';
                 <h3>Send Us a Message</h3>
                 
                 <?php if ($success_message): ?>
-                    <div class="alert-message alert-success">
-                        <span>✅</span>
+                    <div class="alert-message alert-success-enhanced">
                         <?php echo $success_message; ?>
                     </div>
                 <?php endif; ?>
                 
-                <?php if ($error_message): ?>
-                    <div class="alert-message alert-error">
-                        <span>❌</span>
+                <?php if ($error_message && $_SERVER['REQUEST_METHOD'] === 'POST'): ?>
+                    <div class="alert-message alert-error-enhanced">
                         <?php echo $error_message; ?>
                     </div>
                 <?php endif; ?>
                 
-                <form action="contact.php" method="POST" id="contact-form-enhanced">
+                <form action="contact.php" method="POST" id="contact-form-enhanced" novalidate>
                     <div class="form-group-enhanced">
                         <div class="form-floating">
                             <input type="text" name="name" id="name" placeholder=" " 
-                                   value="<?php echo htmlspecialchars($_POST['name'] ?? ''); ?>" required>
+                                   value="<?php echo htmlspecialchars($_POST['name'] ?? ''); ?>" required
+                                   class="<?php echo (isset($errors) && in_array('Name is required', $errors)) ? 'error' : ''; ?>">
                             <label for="name">Your Full Name *</label>
                         </div>
                     </div>
@@ -159,7 +361,8 @@ include 'header.php';
                     <div class="form-group-enhanced">
                         <div class="form-floating">
                             <input type="email" name="email" id="email" placeholder=" "
-                                   value="<?php echo htmlspecialchars($_POST['email'] ?? ''); ?>" required>
+                                   value="<?php echo htmlspecialchars($_POST['email'] ?? ''); ?>" required
+                                   class="<?php echo (isset($errors) && in_array('Valid email is required', $errors)) ? 'error' : ''; ?>">
                             <label for="email">Your Email Address *</label>
                         </div>
                     </div>
@@ -200,10 +403,10 @@ include 'header.php';
                         <div class="form-floating">
                             <select name="budget" id="budget">
                                 <option value=""> </option>
-                                <option value="under-1k" <?php echo ($_POST['budget'] ?? '') === 'under-1k' ? 'selected' : ''; ?>>Under $1,000</option>
-                                <option value="1k-5k" <?php echo ($_POST['budget'] ?? '') === '1k-5k' ? 'selected' : ''; ?>>$1,000 - $5,000</option>
-                                <option value="5k-10k" <?php echo ($_POST['budget'] ?? '') === '5k-10k' ? 'selected' : ''; ?>>$5,000 - $10,000</option>
-                                <option value="10k-plus" <?php echo ($_POST['budget'] ?? '') === '10k-plus' ? 'selected' : ''; ?>>$10,000+</option>
+                                <option value="under-1k" <?php echo ($_POST['budget'] ?? '') === 'under-1k' ? 'selected' : ''; ?>>Under £1,000</option>
+                                <option value="1k-5k" <?php echo ($_POST['budget'] ?? '') === '1k-5k' ? 'selected' : ''; ?>>£1,000 - £2,000</option>
+                                <option value="5k-10k" <?php echo ($_POST['budget'] ?? '') === '5k-10k' ? 'selected' : ''; ?>>£2,000 - £3,000</option>
+                                <option value="10k-plus" <?php echo ($_POST['budget'] ?? '') === '10k-plus' ? 'selected' : ''; ?>>£3,000+</option>
                                 <option value="not-sure" <?php echo ($_POST['budget'] ?? '') === 'not-sure' ? 'selected' : ''; ?>>Not Sure Yet</option>
                             </select>
                             <label for="budget">Project Budget</label>
@@ -212,13 +415,18 @@ include 'header.php';
                     
                     <div class="form-group-enhanced">
                         <div class="form-floating">
-                            <textarea name="message" id="message" placeholder=" " required><?php echo htmlspecialchars($_POST['message'] ?? ''); ?></textarea>
+                            <textarea name="message" id="message" placeholder=" " required
+                                      class="<?php echo (isset($errors) && in_array('Message is required', $errors)) ? 'error' : ''; ?>"><?php echo htmlspecialchars($_POST['message'] ?? ''); ?></textarea>
                             <label for="message">Your Message *</label>
                         </div>
                     </div>
                     
                     <button type="submit" class="submit-btn" id="submit-btn">
-                        Send Message
+                        <span class="btn-text">Send Message</span>
+                        <span class="btn-loading" style="display: none;">
+                            <span class="spinner"></span>
+                            Sending...
+                        </span>
                     </button>
                 </form>
             </div>
@@ -253,26 +461,8 @@ include 'header.php';
     </div>
 </section>
 
-<!-- Map Section -->
-<section class="map-section">
-    <div class="container">
-        <div class="section-title">
-            <h2>Find Our Office</h2>
-            <p>Visit us or reach out digitally - we're here to help you succeed</p>
-        </div>
-        <div class="map-container">
-            Interactive Map - 123 Tech Street, Innovation City
-            <div class="map-overlay">
-                <div class="map-address">
-                    📍 123 Tech Street, Innovation City, IC 10001
-                </div>
-                <div class="map-actions">
-                    <a href="#" class="btn btn-sm">Get Directions</a>
-                    <a href="#" class="btn btn-sm btn-outline">View Street View</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+<!-- Подключение CSS и JS файлов -->
+<link rel="stylesheet" href="css/contact-form.css">
+<script src="script/js/contact-form.js" defer></script>
 
 <?php include 'footer.php'; ?>

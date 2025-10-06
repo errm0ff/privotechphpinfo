@@ -9,7 +9,8 @@ include 'header.php';
     <div class="container">
         <h1>Fixed Price E-commerce Development for UK Businesses</h1>
         <p>Professional online store development with advanced features to boost your sales and grow your business - complete ecommerce solutions from setup to launch.</p>
-        <div class="package-price-hero">From $1,499</div>
+        <div class="package-price-hero">FROM £5790</div>
+        <p>+ Annual hosting and tehnical support charge</p>
         <a href="contact.php?package=ecommerce" class="btn btn-accent">Get Started Today</a>
     </div>
 </section>
@@ -52,7 +53,7 @@ include 'header.php';
                 </div>
             </div>
             <div class="package-image">
-                Ecommerce Store Dashboard Preview
+                <img src="img/ecommerce.jpg" alt="E-Commerce platforms development">
             </div>
         </div>
     </div>
@@ -62,73 +63,76 @@ include 'header.php';
 <section class="package-comparison">
     <div class="container">
         <div class="section-title">
-            <h2>Ecommerce Package Comparison</h2>
+            <h2>Other packages Comparison</h2>
             <p>Choose the perfect ecommerce solution for your business scale and needs</p>
         </div>
         <div class="comparison-table-container">
-            <table class="comparison-table">
+                   <table class="comparison-table">
                 <thead>
                     <tr>
                         <th>Features</th>
-                        <th class="highlight">Starter Store</th>
-                        <th>Professional Store</th>
-                        <th>Enterprise Store</th>
+                        <th class="highlight">Ready Made</th>
+                        <th>Micro</th>
+                        <th>Lite</th>
+                        <th>Pro</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td class="feature-name">Price</td>
-                        <td class="highlight">$1,499</td>
-                        <td>$2,999</td>
-                        <td>$4,999</td>
+                        <td class="feature-name">Design Type</td>
+                        <td class="highlight">Template-Based</td>
+                        <td>Custom</td>
+                        <td>Custom</td>
+                        <td>Custom</td>
                     </tr>
                     <tr>
-                        <td class="feature-name">Products</td>
-                        <td class="highlight">Up to 50</td>
-                        <td class="check">Unlimited</td>
-                        <td class="check">Unlimited</td>
-                    </tr>
-                    <tr>
-                        <td class="feature-name">Payment Options</td>
-                        <td class="highlight">1 Gateway</td>
-                        <td class="check">Multiple</td>
-                        <td class="check">Multiple + Custom</td>
-                    </tr>
-                    <tr>
-                        <td class="feature-name">Inventory Management</td>
+                        <td class="feature-name">Mobile Responsive</td>
                         <td class="highlight check">✓</td>
                         <td class="check">✓</td>
                         <td class="check">✓</td>
-                    </tr>
-                    <tr>
-                        <td class="feature-name">Custom Design</td>
-                        <td class="highlight">Template</td>
-                        <td class="check">Custom</td>
-                        <td class="check">Premium Custom</td>
-                    </tr>
-                    <tr>
-                        <td class="feature-name">Multi-vendor</td>
-                        <td class="highlight cross">✗</td>
-                        <td class="cross">✗</td>
                         <td class="check">✓</td>
                     </tr>
                     <tr>
-                        <td class="feature-name">Advanced Analytics</td>
+                        <td class="feature-name">Customization</td>
+                        <td class="highlight">Limited</td>
+                        <td class="limited">Basic</td>
+                        <td class="check">Advanced</td>
+                        <td class="check">Premium</td>
+                    </tr>
+                    <tr>
+                        <td class="feature-name">Delivery Time</td>
+                        <td class="highlight">1-3 Days</td>
+                        <td>2-3 Days</td>
+                        <td>3-5 Days</td>
+                        <td>5-7 Days or more</td>
+                    </tr>
+                    <tr>
+                        <td class="feature-name">Price Range</td>
+                        <td class="highlight">£650</td>
+                        <td>£1190</td>
+                        <td>£2790</td>
+                        <td>£3690</td>
+                    </tr>
+                    <tr>
+                        <td class="feature-name">SEO Setup</td>
                         <td class="highlight">Basic</td>
-                        <td class="check">✓</td>
-                        <td class="check">✓</td>
+                        <td>Basic</td>
+                        <td>Advanced</td>
+                        <td class="check">Premium</td>
                     </tr>
                     <tr>
                         <td class="feature-name">Support Period</td>
-                        <td class="highlight">3 Months</td>
-                        <td class="check">6 Months</td>
+                        <td class="highlight">1 Month</td>
+                        <td>3 Month</td>
+                        <td>6 Months</td>
                         <td class="check">12 Months</td>
                     </tr>
                     <tr>
                         <td class="feature-name">Best For</td>
-                        <td class="highlight">Small Business</td>
+                        <td class="highlight">Quick Launch</td>
+                        <td>Startups</td>
+                        <td>Small Business</td>
                         <td>Growing Business</td>
-                        <td>Large Business</td>
                     </tr>
                 </tbody>
             </table>
@@ -211,7 +215,7 @@ include 'header.php';
         <h2>Ready to Start Selling Online?</h2>
         <p>Join successful ecommerce businesses who transformed their sales with our professional online stores</p>
         <div class="cta-buttons">
-            <a href="contact.php?package=ecommerce" class="btn btn-light">Start Ecommerce Project - From $1,499</a>
+            <a href="contact.php?package=ecommerce" class="btn btn-light">Start Ecommerce Project - From £5790</a>
             <a href="web-design.php" class="btn btn-outline-light">Compare All Packages</a>
         </div>
     </div>

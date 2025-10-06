@@ -17,14 +17,12 @@
             <div class="footer-column">
                 <h3>Quick Links</h3>
                 <ul>
-                    <li><a href="index.php">Home</a></li>
-                    <li><a href="about.php">About Us</a></li>
-                    <li><a href="web-design.php">Web Design</a></li>
-                    <li><a href="projects.php">Our Projects</a></li>
-                    <li><a href="bloglist.php">Blog</a></li>
-                    <li><a href="cms.php">CMS</a></li>
-                    <li><a href="extras.php">Extras</a></li>
-                    <li><a href="contact.php">Contact</a></li>
+                    <li><a href="./home">Home</a></li>
+                    <li><a href="./about">About Us</a></li>
+                    <li><a href="./web-design">Web Design</a></li>
+                    <li><a href="./projects">Our Projects</a></li>
+                    <li><a href="./cms">CMS</a></li>
+                    <li><a href="./contact">Contact</a></li>
                 </ul>
             </div>
             
@@ -32,18 +30,17 @@
             <div class="footer-column">
                 <h3>UK Services</h3>
                 <ul>
-                    <li><a href="web-design.php">Web Design UK</a></li>
-                    <li><a href="ecommerce-design.php">Ecommerce Development</a></li>
-                    <li><a href="cms.php">CMS Development</a></li>
-                    <li><a href="logo-design.php">Logo Design</a></li>
-                    <li><a href="seo.php">SEO Services UK</a></li>
-                    <li><a href="crm-development.php">CRM Development</a></li>
+                    <li><a href="./web-design">Web Design UK</a></li>
+                    <li><a href="./ecommerce-design">Ecommerce Development UK</a></li>
+                    <li><a href="./cms">CMS Development UK</a></li>
+                    <li><a href="./logo-design">Logo Design UK</a></li>
+                    <li><a href="./seo">SEO Services UK</a></li>
                 </ul>
             </div>
             
             <!-- Contact - UK Optimized -->
             <div class="footer-column">
-                <h3>Contact Privotech UK</h3>
+                <h3>Contact Privotech ltd UK</h3>
                 <div class="social-links">
                     <a href="#" aria-label="Facebook"><span>f</span></a>
                     <a href="#" aria-label="Twitter"><span>t</span></a>
@@ -54,7 +51,7 @@
                 <!-- UK Structured Data & Contact Info -->
                 <div class="contact-info" style="margin-top: 20px;" itemscope itemtype="https://schema.org/LocalBusiness">
                     <p itemprop="name" style="display: none;">Privotech</p>
-                    <p>📞 <span itemprop="telephone">+44 (0) 1234 567890</span></p>
+                    <p>📞 <span itemprop="telephone">+44 (0) 7459 086462</span></p>
                     <p>✉️ <span itemprop="email">info@privotech.co.uk</span></p>
                     <div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress" style="display: none;">
                         <span itemprop="addressCountry">GB</span>
@@ -75,15 +72,15 @@
         
         <!-- Enhanced Copyright with SEO Links -->
         <div class="copyright">
-            <p>&copy; <?php echo date('Y'); ?> Privotech - Web Development Services for UK Businesses. All rights reserved. | 
-                <a href="/privacy.php" style="color: #ccc;">Privacy Policy</a> | 
-                <a href="/terms.php" style="color: #ccc;">Terms of Service</a> |
-                <a href="/sitemap.php" style="color: #ccc;">Sitemap</a>
+            <p>&copy; <?php echo date('Y'); ?> Privotech ltd - Web Development Services for UK Businesses. All rights reserved. | 
+                <a href="https://privotech.co.uk/privacy" style="color: #ccc;">Privacy Policy</a> | 
+                <a href="https://privotech.co.uk/terms" style="color: #ccc;">Terms of Service</a> |
+                <a href="https://privotech.co.uk/sitemap" style="color: #ccc;">Sitemap</a>
             </p>
         </div>
     </div>
 </footer>
 
-<script src="js/script.js"></script>
+<script src="script/js/script.js"></script>
 </body>
 </html>

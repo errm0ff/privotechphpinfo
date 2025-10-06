@@ -1,0 +1,21 @@
+RewriteEngine On
+
+# ============================
+# Force HTTPS (redirect http -> https)
+# ============================
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# ============================
+# Redirect to remove .php extension
+# ============================
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php [L]
+
+# ============================
+# Handle clean URLs (route everything else to index.php)
+# ============================
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php [QSA,L]

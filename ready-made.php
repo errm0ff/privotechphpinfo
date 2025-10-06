@@ -7,9 +7,10 @@ include 'header.php';
 <!-- Package Hero -->
 <section class="package-hero">
     <div class="container">
-        <h1>Ready Made Web Design</h1>
+        <h1>Readymade Web Design package</h1>
         <p>Professional website templates that can be customized and launched quickly at an affordable price - perfect for businesses needing immediate online presence.</p>
-        <div class="package-price-hero">From $299</div>
+        <div class="package-price-hero">FROM £650</div
+         <p>+Annual hosting and tehnical support charge</p>
         <a href="contact.php?package=ready-made" class="btn btn-accent">Get Started Today</a>
     </div>
 </section>
@@ -20,7 +21,7 @@ include 'header.php';
         <div class="package-content">
             <div class="package-info">
                 <h2>Quick & Professional Website Solutions</h2>
-                <p>Our Ready Made package offers professionally designed website templates that can be customized to match your brand and launched in days, not weeks. Perfect for businesses that need a professional online presence quickly and on a budget.</p>
+                <p>Our Ready Made package offers professionally designed website that can be customized to match your brand and launched in days, not weeks. Perfect for businesses that need a professional online presence quickly and on a budget.</p>
                 
                 <p>Choose from our collection of modern, responsive templates and we'll customize it with your content, branding, and specific requirements to create a website that looks custom-built at a fraction of the cost.</p>
                 
@@ -31,26 +32,26 @@ include 'header.php';
 
                 <h3>What's Included:</h3>
                 <ul class="package-features-list">
-                    <li>Professional Template Selection from Our Portfolio</li>
                     <li>Customization with Your Branding & Colors</li>
                     <li>Content Integration (Your text and images)</li>
                     <li>Fully Mobile Responsive Design</li>
                     <li>Basic SEO Setup & Optimization</li>
                     <li>Contact Form Integration</li>
-                    <li>Social Media Integration</li>
+                    <li>Basic Content management</li>
                     <li>Fast Loading Speed Optimization</li>
                     <li>Cross-browser Compatibility</li>
-                    <li>Quick Deployment (3-5 Business Days)</li>
-                    <li>1 Week Technical Support</li>
+                    <li>Quick Deployment (1-3 Business Days)</li>
+                    <li>Up to 6 pages</li>
+                    <li>Can include a blog</li>
                 </ul>
 
                 <div class="intro-buttons">
-                    <a href="contact.php?package=ready-made" class="btn btn-accent">Choose Ready Made</a>
+                    <a href="contact.php?package=ready-made" class="btn btn-accent">Choose Readymade package</a>
                     <a href="web-design.php" class="btn btn-outline">Compare All Packages</a>
                 </div>
             </div>
             <div class="package-image">
-                Ready Made Templates Gallery
+                <img src="img/readymade.jpg" alt="Ready made solution">
             </div>
         </div>
     </div>
@@ -98,17 +99,17 @@ include 'header.php';
                     </tr>
                     <tr>
                         <td class="feature-name">Delivery Time</td>
-                        <td class="highlight">3-5 Days</td>
-                        <td>5-7 Days</td>
-                        <td>7-10 Days</td>
-                        <td>10-14 Days</td>
+                        <td class="highlight">1-3 Days</td>
+                        <td>2-3 Days</td>
+                        <td>3-5 Days</td>
+                        <td>5-7 Days or more</td>
                     </tr>
                     <tr>
                         <td class="feature-name">Price Range</td>
-                        <td class="highlight">$299 - $799</td>
-                        <td>$499</td>
-                        <td>$999</td>
-                        <td>$1,999</td>
+                        <td class="highlight">£650</td>
+                        <td>£1190</td>
+                        <td>£2790</td>
+                        <td>£3690</td>
                     </tr>
                     <tr>
                         <td class="feature-name">SEO Setup</td>
@@ -119,10 +120,10 @@ include 'header.php';
                     </tr>
                     <tr>
                         <td class="feature-name">Support Period</td>
-                        <td class="highlight">1 Week</td>
-                        <td>1 Month</td>
-                        <td>3 Months</td>
-                        <td class="check">6 Months</td>
+                        <td class="highlight">1 Month</td>
+                        <td>3 Month</td>
+                        <td>6 Months</td>
+                        <td class="check">12 Months</td>
                     </tr>
                     <tr>
                         <td class="feature-name">Best For</td>
@@ -202,7 +203,7 @@ include 'header.php';
         <h2>Ready for a Quick Professional Website?</h2>
         <p>Join businesses who launched their online presence in days with our Ready Made templates</p>
         <div class="cta-buttons">
-            <a href="contact.php?package=ready-made" class="btn btn-light">Browse Templates - From $299</a>
+            <a href="contact.php?package=ready-made" class="btn btn-light">Browse Templates - From £650</a>
             <a href="web-design.php" class="btn btn-outline-light">Compare All Packages</a>
         </div>
     </div>

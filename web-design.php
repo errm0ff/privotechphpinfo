@@ -60,7 +60,7 @@ include 'header.php';
                 </div>
             </div>
             <div class="intro-image">
-                Professional Web Design Showcase
+                <img src="img/webdesign.jpg" alt="Description of image">
             </div>
         </div>
     </div>
@@ -79,7 +79,7 @@ include 'header.php';
                     <h3>Micro Package</h3>
                     <p>Perfect for startups</p>
                 </div>
-                <div class="price">$499</div>
+                <div class="price">£1190</div>
                 <ul class="pricing-features">
                     <li>3 Page Website</li>
                     <li>Mobile Responsive</li>
@@ -88,7 +88,7 @@ include 'header.php';
                     <li>1 Month Support</li>
                     <li>Social Media Integration</li>
                 </ul>
-                <a href="micro-package.php" class="btn">Learn More</a>
+                <a href="./micro-package" class="btn">Learn More</a>
             </div>
 
             <div class="pricing-card featured">
@@ -97,7 +97,7 @@ include 'header.php';
                     <h3>Lite Package</h3>
                     <p>Ideal for small businesses</p>
                 </div>
-                <div class="price">$999</div>
+                <div class="price">£2790</div>
                 <ul class="pricing-features">
                     <li>5 Page Website</li>
                     <li>Mobile Responsive</li>
@@ -106,7 +106,7 @@ include 'header.php';
                     <li>3 Months Support</li>
                     <li>Google Analytics</li>
                 </ul>
-                <a href="lite-package.php" class="btn btn-accent">Learn More</a>
+                <a href="./lite-package" class="btn btn-accent">Learn More</a>
             </div>
 
             <div class="pricing-card">
@@ -114,7 +114,7 @@ include 'header.php';
                     <h3>Pro Package</h3>
                     <p>For growing businesses</p>
                 </div>
-                <div class="price">$1,999</div>
+                <div class="price">£3690</div>
                 <ul class="pricing-features">
                     <li>10+ Page Website</li>
                     <li>Custom Design</li>
@@ -123,7 +123,7 @@ include 'header.php';
                     <li>6 Months Support</li>
                     <li>Speed Optimization</li>
                 </ul>
-                <a href="pro-package.php" class="btn">Learn More</a>
+                <a href="./pro-package" class="btn">Learn More</a>
             </div>
             
             <div class="pricing-card">
@@ -131,16 +131,16 @@ include 'header.php';
                     <h3>E-commerce Starter</h3>
                     <p>Basic online store</p>
                 </div>
-                <div class="price">$1,499</div>
+                <div class="price">£3950</div>
                 <ul class="pricing-features">
-                    <li>Up to 50 Products</li>
+                    <li>Up to 100 Products</li>
                     <li>Payment Gateway</li>
                     <li>Inventory Management</li>
                     <li>Order Processing</li>
-                    <li>3 Months Support</li>
+                    <li>12 Months Support</li>
                     <li>Mobile Optimized</li>
                 </ul>
-                <a href="ecommerce-design.php" class="btn">Learn More</a>
+                <a  class="btn">Learn more</a>
             </div>
 
             <div class="pricing-card">
@@ -148,7 +148,7 @@ include 'header.php';
                     <h3>Ready Made</h3>
                     <p>Template-based solution</p>
                 </div>
-                <div class="price">$299</div>
+                <div class="price">£650</div>
                 <ul class="pricing-features">
                     <li>Template Selection</li>
                     <li>Quick Deployment</li>
@@ -157,15 +157,15 @@ include 'header.php';
                     <li>1 Week Support</li>
                     <li>Cost Effective</li>
                 </ul>
-                <a href="ready-made.php" class="btn">Learn More</a>
+                <a href="./ready-made" class="btn">Learn More</a>
             </div>
 
             <div class="pricing-card">
                 <div class="pricing-header">
-                    <h3>Enterprise</h3>
+                    <h3>E-Commerce solution</h3>
                     <p>Large business solution</p>
                 </div>
-                <div class="price">$4,999</div>
+                <div class="price">£5790</div>
                 <ul class="pricing-features">
                     <li>Unlimited Pages</li>
                     <li>Custom Features</li>
@@ -174,7 +174,7 @@ include 'header.php';
                     <li>12 Months Support</li>
                     <li>Dedicated Manager</li>
                 </ul>
-                <a href="contact.php" class="btn">Get Quote</a>
+                <a href="./contact" class="btn">Get Quote</a>
             </div>
         </div>
     </div>

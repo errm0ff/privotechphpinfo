@@ -9,7 +9,8 @@ include 'header.php';
     <div class="container">
         <h1>Micro Web Design Package</h1>
         <p>Essential website design for startups and small businesses on a tight budget - get online quickly with a professional presence.</p>
-        <div class="package-price-hero">$499</div>
+             <div class="package-price-hero">FROM £1190</div>
+         <p>+ Annual hosting and tehnical support charge</p>
         <a href="contact.php?package=micro" class="btn btn-accent">Get Started Today</a>
     </div>
 </section>
@@ -47,7 +48,7 @@ include 'header.php';
                 </div>
             </div>
             <div class="package-image">
-                Micro Package Website Preview
+                <img src="img/micropcg.jpg" alt="Description of image">
             </div>
         </div>
     </div>
@@ -61,63 +62,72 @@ include 'header.php';
             <p>See how our Micro Package compares to other options to find your perfect fit</p>
         </div>
         <div class="comparison-table-container">
-            <table class="comparison-table">
+                   <table class="comparison-table">
                 <thead>
                     <tr>
                         <th>Features</th>
-                        <th class="highlight">Micro</th>
+                        <th class="highlight">Ready Made</th>
+                        <th>Micro</th>
                         <th>Lite</th>
                         <th>Pro</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td class="feature-name">Number of Pages</td>
-                        <td class="highlight">3</td>
-                        <td>5</td>
-                        <td class="check">10+</td>
+                        <td class="feature-name">Design Type</td>
+                        <td class="highlight">Template-Based</td>
+                        <td>Custom</td>
+                        <td>Custom</td>
+                        <td>Custom</td>
                     </tr>
                     <tr>
                         <td class="feature-name">Mobile Responsive</td>
                         <td class="highlight check">✓</td>
                         <td class="check">✓</td>
                         <td class="check">✓</td>
+                        <td class="check">✓</td>
                     </tr>
                     <tr>
-                        <td class="feature-name">CMS Included</td>
-                        <td class="highlight cross">✗</td>
-                        <td class="check">✓</td>
-                        <td class="check">✓</td>
+                        <td class="feature-name">Customization</td>
+                        <td class="highlight">Limited</td>
+                        <td class="limited">Basic</td>
+                        <td class="check">Advanced</td>
+                        <td class="check">Premium</td>
+                    </tr>
+                    <tr>
+                        <td class="feature-name">Delivery Time</td>
+                        <td class="highlight">1-3 Days</td>
+                        <td>2-3 Days</td>
+                        <td>3-5 Days</td>
+                        <td>5-7 Days or more</td>
+                    </tr>
+                    <tr>
+                        <td class="feature-name">Price Range</td>
+                        <td class="highlight">£650</td>
+                        <td>£1190</td>
+                        <td>£2790</td>
+                        <td>£3690</td>
                     </tr>
                     <tr>
                         <td class="feature-name">SEO Setup</td>
                         <td class="highlight">Basic</td>
+                        <td>Basic</td>
                         <td>Advanced</td>
-                        <td class="check">Premium</td>
-                    </tr>
-                    <tr>
-                        <td class="feature-name">E-commerce Ready</td>
-                        <td class="highlight cross">✗</td>
-                        <td class="cross">✗</td>
-                        <td class="check">✓</td>
-                    </tr>
-                    <tr>
-                        <td class="feature-name">Custom Design</td>
-                        <td class="highlight limited">Limited</td>
-                        <td class="check">✓</td>
                         <td class="check">Premium</td>
                     </tr>
                     <tr>
                         <td class="feature-name">Support Period</td>
                         <td class="highlight">1 Month</td>
-                        <td>3 Months</td>
-                        <td class="check">6 Months</td>
+                        <td>3 Month</td>
+                        <td>6 Months</td>
+                        <td class="check">12 Months</td>
                     </tr>
                     <tr>
-                        <td class="feature-name">Delivery Time</td>
-                        <td class="highlight">5-7 Days</td>
-                        <td>7-10 Days</td>
-                        <td>10-14 Days</td>
+                        <td class="feature-name">Best For</td>
+                        <td class="highlight">Quick Launch</td>
+                        <td>Startups</td>
+                        <td>Small Business</td>
+                        <td>Growing Business</td>
                     </tr>
                 </tbody>
             </table>
@@ -190,7 +200,7 @@ include 'header.php';
         <h2>Ready to Start Your Online Journey?</h2>
         <p>Join countless startups and small businesses who began with our affordable Micro Package</p>
         <div class="cta-buttons">
-            <a href="contact.php?package=micro" class="btn btn-light">Get Micro Package - $499</a>
+            <a href="contact.php?package=micro" class="btn btn-light">Get Micro Package - £1190</a>
             <a href="web-design.php" class="btn btn-outline-light">Compare All Packages</a>
         </div>
     </div>
